@@ -18,3 +18,10 @@ learning python basics
 6. In Python, **Packages have Modules.** One can write own Package in ExternalLibraries dirctory and including __init__ file. Then one can import specific Module within package or specific Function. **E.g., 'from P.M import F'; 'from P import M', 'import P', etc.**
 
 7. The **[PyPi site](https://pypi.org/)** has several Python Packages that we can reuse in our programs. There's no need to reinvent the wheel!
+
+8. In Python, **List Comprehension** creates a list from something else like string, list, dictionary.\
+Format - \[new_item for item in list1 if test\] \
+e.g. even_squares = [n**2 for n in l if n % 2 == 0]\
+Similarly for **Dictionary comprehension**,\
+Format - {new_key:new_val for (key, val) in dict.items() if test} \
+e.g. farenhite = {city:tem_c*9/5 + 32 for (city, temp_c) in celsius.items()}
