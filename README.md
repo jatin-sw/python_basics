@@ -25,3 +25,22 @@ e.g. even_squares = [n**2 for n in l if n % 2 == 0]\
 Similarly for **Dictionary comprehension**,\
 Format - {new_key:new_val for (key, val) in dict.items() if test} \
 e.g. farenhite = {city:tem_c*9/5 + 32 for (city, temp_c) in celsius.items()}
+
+9. In Python, ***args** is for unlimited arguments. ****kwargs** is for unlimited keyword arguments. ***args is a Tuple** while ****kwargs is a dictionary**. \
+   e.g., \
+   def my_func1(*args): \
+       sum = 0
+       print(args) \
+       print(args[1]) \
+       for n in args: \
+           sum += n \
+       return sum \
+   
+
+   def my_func2(**kwargs): \
+       print(kwargs) \
+       print(kwargs.get("key1")) \
+       
+
+   my_func1(1, 4, 5, 8) -> (1, 4, 5, 8); 4; 18 \
+   my_func2(MI="Tom", Oppenheimer="Cillian") -> {"MI":"Tom", "Oppenheimer":"Cillian"}; "Tom"
