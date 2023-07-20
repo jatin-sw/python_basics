@@ -56,3 +56,4 @@ e.g. farenhite = {city:tem_c*9/5 + 32 for (city, temp_c) in celsius.items()}
 
     **Whenever an instance of my_class is raised by power of other, it will give the result of num ** other.**
     
+11. The **[Dive into Python 3](https://diveintopython3.net/index.html)** is one of the best resources to learn Python3.
