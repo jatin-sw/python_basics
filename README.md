@@ -54,6 +54,8 @@ e.g. farenhite = {city:tem_c*9/5 + 32 for (city, temp_c) in celsius.items()}
             return self.num ** other \
     \
 
-    **Whenever an instance of my_class is raised by power of other, it will give the result of num ** other.**
+    **Whenever an instance of my_class is raised by power of other, it will give the result of num ** other.** \
+    **The \_\_init\_\_ method is kind of a constructor with the difference being the object is already created before \_\_init\_\_ call.** \
+    **Everything in Python is an object.**
     
-11. The **[Dive into Python 3](https://diveintopython3.net/index.html)** is one of the best resources to learn Python3.
+12. The **[Dive into Python 3](https://diveintopython3.net/index.html)** is one of the best resources to learn Python3.
